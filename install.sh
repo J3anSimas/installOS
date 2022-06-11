@@ -3,6 +3,8 @@
 cd ~
 sudo apt update -qq
 sudo apt upgrade -yy 
+sudo apt update -qq
+sudo apt upgrade -yy
 sudo ubuntu-drivers install
 sudo apt install virtualbox virtualbox-ext-pack gdebi nodejs vlc zsh curl cargo npm pip git -yy
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
